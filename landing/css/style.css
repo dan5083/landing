@@ -1,0 +1,60 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Component Imports */
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/button.css");
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  color: #00ffff; /* default text color: cyan */
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #00ffff;
+}
+
+h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #00ffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+  color: #00ffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Utility class for red text (accent or alerts) */
+.text-red {
+  color: #ff4c4c;
+}

@@ -1,0 +1,38 @@
+.banner {
+  background-image: url("https://source.unsplash.com/1600x500/?youtube,technology");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.banner p {
+  font-size: 20px;
+  margin: 15px 0 25px;
+  max-width: 600px;
+}
+
+.banner .btn-medium {
+  background-color: #ff5c5c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.banner .btn-medium:hover {
+  background-color: #e64545;
+}
